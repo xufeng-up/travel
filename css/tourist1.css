@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+em,i{
+    font-style: normal;
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.contain{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.topNavWrapper{
+    background-color: #fafafa;
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.topNavPanel{
+    display: flex;
+    justify-content: space-between; 
+}
+.topLoginLeft{
+    display: flex;
+    justify-content: flex-start;
+}
+.topLoginRight{
+    display: flex;
+    justify-content: flex-end;   
+}
+.topLoginLeft li{
+    margin-left: 10px;
+}
+
+.topLoginLeft li a{
+    color: #999;
+}
+.topLoginLeft li a:hover{
+    color: #ff5d3d;
+}
+
+.topLoginRight li{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.topLoginRight li i{
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    background:url(../images/2.png) no-repeat -5px -21px;
+}
+.topLoginRight li:hover i{
+    background:url(../images/2.png) no-repeat -5px -4px;
+    
+}
+.changcolor1{
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+.changcolor1:hover{
+    background-color: #fff;
+    box-shadow: 0 -7px 10px 0 rgba(0, 0, 0, .3);
+}
+.changcolor1:hover .show1{
+    background-color: #fff;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, .3);
+    height: 100px;
+}
+.show1{
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+    height: 0;
+    transition: all .3s linear;
+}
+.show2{
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+    height: 0;
+    transition: all .3s linear;
+}
+.changcolor1:hover .show2{
+    background-color: #fff;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, .3);
+    height: 68px;
+}
+.show2 .top1,.botton1{
+    width: 140px;
+    height: 34px;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.show1 .use_box{
+    width: 139px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.use_box_left{
+    height: 36px;
+    width: 36px;
+    background:url(../images/5.png) no-repeat 0 -248px;
+}
+.mylist{
+    width: 139px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 0;
+}
+
+.chgul li{
+    width: 100px;
+    line-height: 25px;
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.colorff5d3d{
+    color: #ff5d3d;
+}
+
+#topWrapperIcon1{
+    display: block;
+    width: 14px;
+    height: 19px;
+    background: url(../images/2.png) no-repeat -5px -40px;
+    margin: 5px auto;
+}
+
+#topWrapperIcon2{
+    display: block;
+    width: 14px;
+    height: 19px;
+    background: url(../images/2.png) no-repeat -5px -80px;
+    margin: 10px auto;
+    
+}
+.changcolor2{
+    width: 100px;
+    text-align: center;
+    padding-left: 15px;
+}
+.changcolor3{
+    width: 40px;
+    height: 30px;
+    position: relative;
+}
+.changcolor3:hover{
+    background-color: #fff;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, .3);
+}
+.changcolor3 .phoneiocn{
+    position: absolute;
+    top: 30px;
+    right: -13px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    z-index: 100;
+}
+
+.changcolor3:hover .phoneiocn{
+    height: 235px;
+}
+
+.changcolor3 .weixinicon{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, .3);
+    overflow: hidden;
+    height: 0;
+    transition: all 0.3s;
+    z-index: 100;
+}
+
+.changcolor3:hover .weixinicon{
+    height: 120px;
+}
+
+
+
+
+
+
+
+

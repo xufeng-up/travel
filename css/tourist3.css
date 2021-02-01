@@ -1,0 +1,150 @@
+.menuTopNavWrapper {
+    /* height: 46px; */
+    background-color: #00c07b;
+}
+
+.menuBottomNavWrapper {
+    height: 36px;
+}
+
+.menuNavtottal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuNavItem {
+    height: 46px;
+    line-height: 46px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+}
+
+.menuNavItem i {
+    display: inline-block;
+    width: 13px;
+    height: 6px;
+    background: url(../images/2.png) no-repeat -2px -150px;
+    margin-bottom: 2px;
+}
+
+.menuNavItem:hover {
+    font-weight: bold;
+}
+
+.menuNavItem:hover i {
+    background: url(../images/2.png) no-repeat -3px -172px;
+}
+
+.sanjiao {
+    height: 0;
+    width: 0;
+    border: 6px solid transparent;
+    border-bottom-color: #fff;
+    position: absolute;
+    top: 34px;
+    left: 30%;
+    display: none;
+}
+
+.menuNavItem:hover .sanjiao {
+    display: block;
+}
+
+.submenu-nav {
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    background-color: #fff;
+    left: 0;
+    top: 166px;
+    display: none;
+    z-index: 100;
+}
+
+.menuNavItem:hover .submenu-nav {
+    display: block;
+}
+
+.submenu-bg {
+    height: 46px;
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    top: 46px;
+    left: -200%;
+    white-space: nowrap;
+    display: none;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.submenu-bg span {
+    margin-left: 20px;
+}
+
+.menuNavItem:hover .submenu-bg {
+    display: block;
+    font-weight: normal;
+}
+
+.menuBottomNavWrapper ul {
+    height: 36px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.menuBottomNavWrapper li {
+    height: 22px;
+    width: 120px;
+    border-right: 1px solid #e0e0e0;
+    font-size: 12px;
+    color: #666;
+}
+
+.menuBottomNavWrapper .pt-smallicon1 {
+    background: url(../images/13.png) no-repeat center center;
+    border-left: 5px solid #00c07b;
+    width: 80px;
+    border-right: 0;
+}
+
+.menuBottomNavWrapper .pt-smallicon2 i {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    background: url(../images/14.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.menuBottomNavWrapper span {
+    vertical-align: super;
+}
+
+.pt-smallicon3 i {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    background: url(../images/14.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.menuBottomNavWrapper .pt-smallicon4 {
+    width: 150px;
+}
+
+.pt-smallicon4 i {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    background: url(../images/14.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
